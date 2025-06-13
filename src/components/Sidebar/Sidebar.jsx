@@ -21,7 +21,25 @@ const Sidebar = ({ isOpen, onClose, selectedContact, onContactSelect }) => {
         <div className="sidebar-chats-header">
           <h2>Chats</h2>
         </div>
+
+        {/* Contact List */}
+        <div className="sidebar-contacts">
+          {contacts.map((contact) => (
+            <ContactItem
+              key={contact.id}
+              contact={contact}
+              isSelected={selectedContact === contact.id}
+              onSelect={() => {
+                onContactSelect(contact.id);
+                onClose();
+              }}
+            />
+          ))}
+        </div>
       </div>
+
+      {/* Mobile Overlay */}
+      {isOpen && <div className="sidebar-overlay lg:hidden" onClick={onClose} />}
     </>
   );
 };
