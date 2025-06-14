@@ -10,7 +10,7 @@ const Sidebar = ({ isOpen, onClose, selectedContact, onContactSelect }) => {
         {/* Sidebar Header */}
         <div className="sidebar-header">
           <div className="sidebar-logo">
-            <div className="logo-icon">logo</div>
+            <div className="logo-icon">Chat-App</div>
           </div>
           <button onClick={onClose} className="sidebar-close lg:hidden">
             <X size={20} />
