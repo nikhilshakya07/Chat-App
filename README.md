@@ -109,7 +109,7 @@ State management using React hooks
 ### 👨‍💻 Author
 **Nikhil Shakya**
 
-GitHub: @nikhilshakya07
+GitHub: https://github.com/nikhilshakya07
 
 LinkedIn: Nikhil Shakya
 
