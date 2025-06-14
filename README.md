@@ -1,12 +1,95 @@
-# React + Vite
+# Chatify - Responsive Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive chat application built with React and Vite featuring real-time messaging simulation, typing indicators, and mobile-first design.
 
-Currently, two official plugins are available:
+![Chatify Screenshot](public/Screenshot%202025-06-14%20204208.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+**[View Live Application](https://chat-app-rho-henna.vercel.app/)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **Fully Responsive Design**: Works seamlessly on desktop, tablet, and mobile
+- **Real-time Chat Simulation**: Interactive messaging with bot responses
+- **Typing Indicators**: Animated typing feedback
+- **Message Status**: Visual indicators for sent/delivered messages
+- **Mobile Navigation**: Collapsible sidebar with hamburger menu
+- **Online Status**: Live contact status indicators
+
+## 🛠️ Technology Stack
+
+- **React 18** with Hooks
+- **Vite** (build tool)
+- **Pure CSS** (responsive design)
+- **Lucide React** (icons)
+
+## 📁 Project Structure
+src/
+├── components/
+│   ├── Chat/
+│   │   ├── ChatHeader.jsx
+│   │   ├── Message.jsx
+│   │   ├── MessageInput.jsx
+│   │   ├── MessageList.jsx
+│   │   └── TypingIndicator.jsx
+│   └── Sidebar/
+│       ├── ContactItem.jsx
+│       └── Sidebar.jsx
+├── data/
+│   ├── contacts.js
+│   └── messages.js
+├── hooks/
+│   └── useChat.js
+├── styles/
+│   ├── components.css
+│   └── globals.css
+├── App.jsx
+└── main.jsx
+
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/nikhilshakya07/Chat-App.git
+cd Chat-App
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+Open http://localhost:5173 in your browser.
+Build for Production
+bashnpm run build
+📱 Responsive Design
+
+Desktop (1024px+): Full sidebar with chat area
+Tablet (768px-1023px): Collapsible sidebar
+Mobile (<768px): Hamburger menu with overlay
+
+💡 Key Implementation
+Custom Hook: useChat.js
+Manages all chat functionality:
+
+Message state management
+Contact selection
+Typing indicators
+Bot response simulation
+
+Component Architecture
+
+Modular design with separate Chat and Sidebar components
+Responsive behavior handled through CSS media queries
+State management using React hooks
+
+👨‍💻 Author
+Nikhil Shakya
+
+GitHub: @nikhilshakya07
+LinkedIn: Nikhil Shakya
+
+
+Repository: https://github.com/nikhilshakya07/Chat-App
