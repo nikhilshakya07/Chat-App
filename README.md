@@ -78,42 +78,31 @@ npm run build
 
 ## 📱 Responsive Design
 
-Desktop (1024px+): Full sidebar with chat area
-
-Tablet (768px-1023px): Collapsible sidebar
-
-Mobile (<768px): Hamburger menu with overlay
+- Desktop (1024px+): Full sidebar with chat area
+- Tablet (768px-1023px): Collapsible sidebar
+- Mobile (<768px): Hamburger menu with overlay
 
 ## 💡 Key Implementation
 
-Custom Hook: useChat.js
-
+**Custom Hook: useChat.js**
 Manages all chat functionality:
 
-Message state management
-
-Contact selection
-
-Typing indicators
-
-Bot response simulation
+- Message state management
+- Contact selection
+- Typing indicators
+- Bot response simulation
 
 ### Component Architecture
 
-Modular design with separate Chat and Sidebar components
-
-Responsive behavior handled through CSS media queries
-
-State management using React hooks
+- Modular design with separate Chat and Sidebar components
+- Responsive behavior handled through CSS media queries
+- State management using React hooks
 
 ### 👨‍💻 Author
 **Nikhil Shakya**
 
-GitHub: https://github.com/nikhilshakya07
+**GitHub**: https://github.com/nikhilshakya07
+**LinkedIn**: https://www.linkedin.com/in/nikhil-shakya07/
+**Repository**: https://github.com/nikhilshakya07/Chat-App
 
-LinkedIn: Nikhil Shakya
 
-
-Repository: https://github.com/nikhilshakya07/Chat-App
-
-LinkedIn: https://www.linkedin.com/in/nikhil-shakya07/
