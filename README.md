@@ -25,6 +25,7 @@ A modern, responsive chat application built with React and Vite featuring real-t
 - **Lucide React** (icons)
 
 ## 📁 Project Structure
+```pgsql
 src/
 ├── components/
 │   ├── Chat/
@@ -46,31 +47,43 @@ src/
 │   └── globals.css
 ├── App.jsx
 └── main.jsx
+```
 
 ## 🚀 Getting Started
 
 ### Installation
 
-```bash
-# Clone the repository
+### Clone the repository
+```
 git clone https://github.com/nikhilshakya07/Chat-App.git
 cd Chat-App
+```
 
-# Install dependencies
+### Install dependencies
+```
 npm install
+```
 
-# Start development server
+### Start development server
+```
 npm run dev
-Open http://localhost:5173 in your browser.
-Build for Production
-bashnpm run build
-📱 Responsive Design
+```
 
-Desktop (1024px+): Full sidebar with chat area
-Tablet (768px-1023px): Collapsible sidebar
-Mobile (<768px): Hamburger menu with overlay
+### Open http://localhost:5173 in your browser.
 
-💡 Key Implementation
+### Build for Production
+```
+npm run build
+```
+
+## 📱 Responsive Design
+
+### Desktop (1024px+): Full sidebar with chat area
+### Tablet (768px-1023px): Collapsible sidebar
+### Mobile (<768px): Hamburger menu with overlay
+
+## 💡 Key Implementation
+
 Custom Hook: useChat.js
 Manages all chat functionality:
 
@@ -79,14 +92,14 @@ Contact selection
 Typing indicators
 Bot response simulation
 
-Component Architecture
+### Component Architecture
 
 Modular design with separate Chat and Sidebar components
 Responsive behavior handled through CSS media queries
 State management using React hooks
 
-👨‍💻 Author
-Nikhil Shakya
+### 👨‍💻 Author
+**Nikhil Shakya**
 
 GitHub: @nikhilshakya07
 LinkedIn: Nikhil Shakya
