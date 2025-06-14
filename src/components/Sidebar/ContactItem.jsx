@@ -26,4 +26,4 @@ const ContactItem = ({ contact, isSelected, onSelect }) => {
   );
 };
 
-export default ContactItem();
+export default ContactItem;
