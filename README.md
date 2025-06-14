@@ -78,9 +78,9 @@ npm run build
 
 ## 📱 Responsive Design
 
-### Desktop (1024px+): Full sidebar with chat area
-### Tablet (768px-1023px): Collapsible sidebar
-### Mobile (<768px): Hamburger menu with overlay
+ Desktop (1024px+): Full sidebar with chat area
+ Tablet (768px-1023px): Collapsible sidebar
+ Mobile (<768px): Hamburger menu with overlay
 
 ## 💡 Key Implementation
 
@@ -106,3 +106,4 @@ LinkedIn: Nikhil Shakya
 
 
 Repository: https://github.com/nikhilshakya07/Chat-App
+LinkedIn: https://www.linkedin.com/in/nikhil-shakya07/
