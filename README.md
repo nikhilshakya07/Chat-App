@@ -102,7 +102,9 @@ Manages all chat functionality:
 **Nikhil Shakya**
 
 **GitHub**: https://github.com/nikhilshakya07
+
 **LinkedIn**: https://www.linkedin.com/in/nikhil-shakya07/
+
 **Repository**: https://github.com/nikhilshakya07/Chat-App
 
 
